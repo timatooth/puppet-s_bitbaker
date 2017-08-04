@@ -1,0 +1,18 @@
+{
+  "name": "timatooth-s_bitbaker",
+  "version": "0.1.0",
+  "author": "timatooth",
+  "summary": "Install the Yocto dependencies on ubuntu 16.04 for bitbaking",
+  "license": "Apache-2.0",
+  "source": "github.com/timatooth",
+  "project_page": "https://github.com/timatooth",
+  "issues_url": "https://github.com/timatooth/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_requirement": ">= 1.0.0 <= 4.0.0"
+    }
+  ],
+  "data_provider": null
+}
+
