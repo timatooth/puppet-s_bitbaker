@@ -26,7 +26,7 @@ end
 
 desc 'Run lint, validate, and spec tests.'
 task :test do
-  [:lint, :validate, :spec].each do |test|
+  [:lint, :validate].each do |test|
     Rake::Task[test].invoke
   end
 end
